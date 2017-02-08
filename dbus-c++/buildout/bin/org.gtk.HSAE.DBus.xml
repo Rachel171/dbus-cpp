@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <node>
+			<interface name="org.gtk.HSAE.Test">
+				 	<method name="HelloWorld">
+						<arg type="s" name="greeting" direction="in"/>
+						<arg type="s" name="response" direction="out"/>
+				   </method> 
+				   <method name='EmitSignal'>
+						<arg type='d' name='speed_in_mph' direction='in'/>
+					</method>
+						<signal name='VelocityChanged'>
+							<arg type='d' name='speed_in_mph'/>
+							<arg type='s' name='speed_as_string'>
+							</arg>
+						</signal>
+				   <property type='s' name='Foo' access='read'/>
+				   <property type='s' name='Bar' access='read'/>
+				 </interface> 
+  </node> 
