@@ -1,3 +1,5 @@
 *.cc linguist-language=C++
 *.c linguist-language=C
 *.cpp linguist-language=C++
+*.in  linguist-language=C
+
