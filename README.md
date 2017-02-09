@@ -1,0 +1,2 @@
+# dbus-cpp
+DBus-c++ attempts to provide a C++ API for D-BUS. The library has a glib and an Ecore mainloop integration. It also offers an optional own main loop. and the example mydbus contains some frame.
